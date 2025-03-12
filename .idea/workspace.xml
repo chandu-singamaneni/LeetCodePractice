@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="GPG key verified signatures">
+    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Final test for the day signing commits">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/MajorityElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +184,8 @@
     <MESSAGE value="Different approach to problem 169 &quot;Boyer-Moore majority voting algorithm&quot;" />
     <MESSAGE value="Trying new Git cred" />
     <MESSAGE value="GPG key verified signatures" />
-    <option name="LAST_COMMIT_MESSAGE" value="GPG key verified signatures" />
+    <MESSAGE value="Final test for the day signing commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final test for the day signing commits" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
