@@ -27,8 +27,22 @@ public class MajorityElement {
 
     public static void main(String[] args) {
         MajorityElement me = new MajorityElement();
-        int[] test1 = new int[]{2, 2, 1, 1, 1, 2, 2};
+        int[] test1 = new int[]{1,2,1,3,1,4,1,5};
         System.out.println(me.majorityElement(test1));
+    }
+
+    /* Boyer-Moore Majority Voting Algorithm approach */
+    public int majorityElementDifferentSol(int[] nums) {
+        int cnt = 0, m = 0;
+        for (int x : nums) {
+            if (cnt == 0) {
+                m = x;
+                cnt = 1;
+            } else {
+                cnt += m == x ? 1 : -1;
+            }
+        }
+        return m;
     }
 
     public int majorityElement(int[] nums) {
