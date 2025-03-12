@@ -59,9 +59,31 @@ public class MergeSortedArrays {
         msa.merge(test2a, 1, test2b, 1);
         System.out.println("Test2 o/p");
         Arrays.stream(test2a).forEach(System.out::println);
-     }
+    }
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+        // Initialize pointers for nums1, nums2, and the merged array (nums1).
+        int i = m - 1; // Pointer for the last element of the valid part of nums1.
+        int j = n - 1; // Pointer for the last element of nums2.
+        int k = m + n - 1; // Pointer for the last position in the merged nums1.
+
+        // Merge from the end of both arrays.
+        while (j >= 0) { // Continue as long as there are elements in nums2.
+            if (i >= 0 && nums1[i] > nums2[j]) {
+                // If there are elements in nums1 and the current element in nums1 is greater,
+                // copy the element from nums1 to the merged position.
+                nums1[k] = nums1[i];
+                i--; // Move the nums1 pointer to the previous element.
+            } else {
+                // Otherwise, copy the element from nums2 to the merged position.
+                nums1[k] = nums2[j];
+                j--; // Move the nums2 pointer to the previous element.
+            }
+            k--; // Move the merged array pointer to the previous position.
+        }
+    }
+
+    public void mergeAnotherApproach(int[] nums1, int m, int[] nums2, int n) {
 
         if (n == 0) {
             // Do nothing
