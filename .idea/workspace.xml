@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Problem number 27, remove elements from array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Problem number 169, Finding majority element in an array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/MajorityElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741739281210</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Problem number 80, remove duplicate elements from array">
+      <created>1741745936523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741745936523</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,7 +126,9 @@
     <MESSAGE value="Some initial setup to do leetcode" />
     <MESSAGE value="Problem number 88, merge two sorted arrays. O(m+n) time complexity solution" />
     <MESSAGE value="Problem number 27, remove elements from array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem number 27, remove elements from array" />
+    <MESSAGE value="Problem number 80, remove duplicate elements from array" />
+    <MESSAGE value="Problem number 169, Finding majority element in an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem number 169, Finding majority element in an array" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
