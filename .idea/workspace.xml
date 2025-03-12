@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Problem number 169, Finding majority element in an array">
+    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Different approach to problem 169 &quot;Boyer-Moore majority voting algorithm&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/MajorityElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +57,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="" />
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741747617325</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Different approach to problem 169 &quot;Boyer-Moore majority voting algorithm&quot;">
+      <created>1741748688197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741748688197</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,7 +127,13 @@
         </entry>
         <entry key="abc62585-536b-4c2d-b1e6-40aab67a7819">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -135,7 +150,8 @@
     <MESSAGE value="Problem number 27, remove elements from array" />
     <MESSAGE value="Problem number 80, remove duplicate elements from array" />
     <MESSAGE value="Problem number 169, Finding majority element in an array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem number 169, Finding majority element in an array" />
+    <MESSAGE value="Different approach to problem 169 &quot;Boyer-Moore majority voting algorithm&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Different approach to problem 169 &quot;Boyer-Moore majority voting algorithm&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
