@@ -61,7 +61,15 @@ public class StockBuyAndSell {
         }
 
         return diff;
+    }
 
+    public int maxProfitApproach2(int[] prices) {
+        int ans = 0, mi = prices[0];
+        for (int v : prices) {
+            ans = Math.max(ans, v - mi);
+            mi = Math.min(mi, v);
+        }
+        return ans;
     }
 
 }

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Maximum profit to buy and sell stocks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/StockBuyAndSell.java" afterDir="false" />
+    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Maximum profit to buy and sell stocks approach 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/StockBuyAndSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/StockBuyAndSell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +204,8 @@
     <MESSAGE value="This time with IntelliJ, lets gooo" />
     <MESSAGE value="Rotate array" />
     <MESSAGE value="Maximum profit to buy and sell stocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maximum profit to buy and sell stocks" />
+    <MESSAGE value="Maximum profit to buy and sell stocks approach 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maximum profit to buy and sell stocks approach 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
