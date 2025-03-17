@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Rotate array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/RotateArray.java" afterDir="false" />
+    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Maximum profit to buy and sell stocks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/StockBuyAndSell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +203,8 @@
     <MESSAGE value="Final test for the day signing commits" />
     <MESSAGE value="This time with IntelliJ, lets gooo" />
     <MESSAGE value="Rotate array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotate array" />
+    <MESSAGE value="Maximum profit to buy and sell stocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maximum profit to buy and sell stocks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
