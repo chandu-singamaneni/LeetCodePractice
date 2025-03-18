@@ -35,32 +35,21 @@ public class StockBuyAndSell {
     public static void main(String[] args) {
         StockBuyAndSell sbs = new StockBuyAndSell();
 
-        int[] test1 = new int[]{4, 6, 3, 7, 2, 9};
+        int[] test1 = new int[]{7, 1, 5, 3, 6, 4};
 
         System.out.println("Maximum profit - " + sbs.maxProfit(test1));
     }
 
     public int maxProfit(int[] prices) {
-        int low = 0, high = 0, diff = 0;
+        int prof = 0, min = prices[0];
 
-        for (int i = 0; i < prices.length; i++) {
-
-            if (prices[i] < prices[low]) {
-                low = i;
-                high = i;
+        for(int i = 0; i < prices.length; i++) {
+            if(prices[i] > min) {
+                prof = prof + (prices[i] - min);
             }
-
-            if (prices[i] > prices[high]) {
-                high = i;
-                int tempDiff = prices[high] - prices[low];
-                if (tempDiff > diff) {
-                    diff = tempDiff;
-                }
-            }
-
+            min = prices[i];
         }
-
-        return diff;
+        return prof;
     }
 
     public int maxProfitApproach2(int[] prices) {
