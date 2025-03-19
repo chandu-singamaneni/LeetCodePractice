@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Maximum profit to buy and sell stocks approach 2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Jump Problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/JumpGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/StockBuyAndSell2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/StockBuyAndSell2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/MergeSortedArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +207,8 @@
     <MESSAGE value="Rotate array" />
     <MESSAGE value="Maximum profit to buy and sell stocks" />
     <MESSAGE value="Maximum profit to buy and sell stocks approach 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maximum profit to buy and sell stocks approach 2" />
+    <MESSAGE value="Jump Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jump Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,6 +217,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/StockBuyAndSell.java</url>
           <line>43</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/JumpGame.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/JumpGame.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/JumpGame.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/JumpGame.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/JumpGame.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/JumpGame.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
