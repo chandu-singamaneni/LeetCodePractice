@@ -31,7 +31,7 @@ public class HIndex {
 
     public static void main(String[] args) {
         HIndex hi = new HIndex();
-        int[] test1 = new int[]{3, 0, 6, 1, 5};
+        int[] test1 = new int[]{0, 1, 2, 3, 4, 5};
         System.out.println("H-Index - " + hi.hIndex(test1));
     }
 

@@ -34,9 +34,9 @@ import java.util.Arrays;
 public class RotateArray {
 
     public static void main(String[] args) {
-        int[] test1 = new int[]{1, 2, 3, 4, 5, 6, 7};
+        int[] test1 = new int[]{1, 2, 3, 4, 5};
 
-        int k = 3;
+        int k = 2;
         int n = test1.length;
         k %= n;
 
