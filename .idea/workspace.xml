@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Jump Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/Candy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/HIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/HIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/RotateArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,20 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GasStation">
+  <component name="RunManager" selected="Application.Candy">
+    <configuration name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.chandu.saturn.top150.Candy" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.chandu.saturn.top150.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.chandu.saturn.top150.GasStation" />
       <module name="LeetCodePractice.main" />
@@ -123,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Candy" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.GasStation" />
         <item itemvalue="Application.ProductOfArrayExceptSelf" />
@@ -345,6 +357,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/GasStation.java</url>
           <line>59</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/Candy.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/Candy.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
