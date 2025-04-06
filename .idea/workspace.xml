@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="Jump Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/LongestCommonPrefix.java" afterDir="false" />
+    <list default="true" id="1601807f-6c1c-4f70-a721-f2c62bb01285" name="Changes" comment="longest common prefix problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chandu/saturn/top150/LongestCommonPrefix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +283,8 @@
     <MESSAGE value="Maximum profit to buy and sell stocks" />
     <MESSAGE value="Maximum profit to buy and sell stocks approach 2" />
     <MESSAGE value="Jump Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jump Problem" />
+    <MESSAGE value="longest common prefix problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="longest common prefix problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

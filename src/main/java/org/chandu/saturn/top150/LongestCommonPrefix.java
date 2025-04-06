@@ -6,7 +6,6 @@ package org.chandu.saturn.top150;
  * If there is no common prefix, return an empty string "".
  * <p>
  * <p>
- * <p>
  * Example 1:
  * <p>
  * Input: strs = ["flower","flow","flight"]
