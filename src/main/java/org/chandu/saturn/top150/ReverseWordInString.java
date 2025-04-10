@@ -3,7 +3,8 @@ package org.chandu.saturn.top150;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
-import java.util.stream.Collectors;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Given an input string s, reverse the order of the words.
@@ -38,7 +39,13 @@ public class ReverseWordInString {
         String s = "  hello world  ";
         ReverseWordInString rws = new ReverseWordInString();
 
-        System.out.println("Output :: " + rws.reverseString(s));
+        System.out.println("Output :: " + rws.reverseStringApproach2(s));
+    }
+
+    public String reverseStringApproach2(String s) {
+        List<String> words = Arrays.asList(s.trim().split("\\s+"));
+        Collections.reverse(words);
+        return String.join(" ", words);
     }
 
     public String reverseString(@NotNull String s) {
